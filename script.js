@@ -1,12 +1,9 @@
-const toggle = document.getElementById("menu-toggle");
-const navLinks = document.getElementById("nav-links");
+const menuToggle = document.getElementById("menu-toggle");
+const menu = document.getElementById("primary-menu");
 
-toggle.addEventListener("click", () => {
-  navLinks.classList.toggle("active");
-});
+menuToggle.addEventListener("click", () => {
+  menu.classList.toggle("active");
 
-document.querySelectorAll(".nav-links a").forEach(link => {
-  link.addEventListener("click", () => {
-    navLinks.classList.remove("active");
-  });
+  const expanded = menuToggle.getAttribute("aria-expanded") === "true";
+  menuToggle.setAttribute("aria-expanded", String(!expanded));
 });

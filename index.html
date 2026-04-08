@@ -4,34 +4,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
 
   <body>
-    <header class="header">
-      <div class="container nav">
-        <h2 class="logo">
-          <a href="#home">Keishawn Starks</a>
-        </h2>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-        <div class="menu-toggle" id="menu-toggle">☰</div>
+    <header>
+      <a href="#" class="logo">Keishawn Starks</a>
 
-        <ul class="nav-links" id="nav-links">
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="primary-menu"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <nav>
+        <ul id="primary-menu" class="menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+      </nav>
 
-        <div class="social-icons">
-          <a href="#">LinkedIn</a>
-          <a href="#">GitHub</a>
-          <a href="#">Instagram</a>
-        </div>
+      <div class="social-icons">
+        <a
+          href="https://www.linkedin.com/in/keishawn-starks-b35ab0212/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my LinkedIn profile"
+          >LinkedIn</a
+        >
+
+        <a
+          href="https://github.com/KeysStarks"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my GitHub profile"
+          >GitHub</a
+        >
+
+        <a
+          href="https://www.instagram.com/superstarks_keys/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my Instagram profile"
+          >Instagram</a
+        >
       </div>
     </header>
 
-    <main>
+    <main id="main-content">
       <section class="hero" id="home">
         <div class="container hero-content">
           <div class="hero-text">
@@ -48,7 +86,7 @@
           </div>
 
           <div class="hero-image">
-            <img src="image000001.jpg" alt="Keishawn Starks" />
+            <img src="images/image000001.jpg" alt="Keishawn Starks" />
           </div>
         </div>
 
@@ -79,7 +117,7 @@
           <div class="projects-grid">
             <article class="project-card">
               <div class="project-image">
-                <img src="EventHive.png" alt="EventHive project" />
+                <img src="images/EventHive.png" alt="EventHive project" />
               </div>
 
               <div class="project-content">
@@ -108,7 +146,7 @@
 
             <article class="project-card">
               <div class="project-image">
-                <img src="Foodspot.png" alt="FoodSpot project" />
+                <img src="images/Foodspot.png" alt="FoodSpot project" />
               </div>
 
               <div class="project-content">
@@ -200,32 +238,34 @@
               <p>keishawnstarks@gmail.com</p>
             </a>
 
-            <a
-              href="https://github.com/KeysStarks"
-              target="_blank"
-              class="contact-card"
-            >
-              <h3>GitHub</h3>
-              <p>github.com/KeysStarks</p>
-            </a>
+            <div class="contact-socials">
+              <a
+                href="https://github.com/KeysStarks"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit my GitHub profile"
+              >
+                <i class="fab fa-github"></i>
+              </a>
 
-            <a
-              href="https://www.linkedin.com/in/keishawn-starks-b35ab0212/"
-              target="_blank"
-              class="contact-card"
-            >
-              <h3>LinkedIn</h3>
-              <p>Connect with me professionally</p>
-            </a>
+              <a
+                href="https://www.linkedin.com/in/keishawn-starks-b35ab0212/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit my LinkedIn profile"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
 
-            <a
-              href="https://www.instagram.com/superstarks_keys/"
-              target="_blank"
-              class="contact-card"
-            >
-              <h3>Instagram</h3>
-              <p>@superstarks_keys</p>
-            </a>
+              <a
+                href="https://www.instagram.com/superstarks_keys/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit my Instagram profile"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
           </div>
         </div>
       </section>
