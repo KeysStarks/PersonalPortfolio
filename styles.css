@@ -596,3 +596,113 @@ nav {
     flex-wrap: wrap;
   }
 }
+
+/* Hero: dual CTA buttons */
+.hero-cta {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #22c55e;
+  border: 2px solid #22c55e;
+  box-shadow: none;
+}
+
+.btn-outline:hover {
+  background: rgba(34, 197, 94, 0.08);
+  box-shadow: 0 8px 20px rgba(34, 197, 94, 0.15);
+}
+
+/* Projects: 3-column grid on desktop */
+.projects-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Project banner (for projects without screenshots) */
+.project-banner {
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.project-banner span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.banner-react {
+  background: linear-gradient(135deg, #0d2137 0%, #0a3d5c 100%);
+  color: #61dafb;
+}
+
+.banner-python {
+  background: linear-gradient(135deg, #0d2415 0%, #1a4a2a 100%);
+  color: #22c55e;
+}
+
+.banner-cli {
+  background: linear-gradient(135deg, #1a1a2e 0%, #2d1b4e 100%);
+  color: #a78bfa;
+}
+
+/* About: certifications list */
+.cert-list {
+  margin-top: 28px;
+}
+
+.cert-title {
+  color: #22c55e;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.cert-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cert-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #b8c0d4;
+  font-size: 0.95rem;
+}
+
+.cert-list li i {
+  color: #22c55e;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+/* Responsive: collapse projects to 2-col then 1-col */
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-cta {
+    justify-content: center;
+  }
+}

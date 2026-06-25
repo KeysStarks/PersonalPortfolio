@@ -1,56 +1,53 @@
-# Personal Portfolio Website
+# Keishawn Starks — Personal Portfolio
 
-## Project Description
+Live portfolio site built with HTML5, CSS3, and JavaScript. Showcases my growth from a 13-year financial services career into full-stack development.
 
-This project is a personal portfolio website built as part of the Coding Temple HTML & CSS Final Module Project. The goal of the project was to create a responsive, multi-section website that showcases personal information, technical skills, and completed projects.
+## About
 
-The site includes a hero section, project showcase, about section, and contact section, all styled with modern design principles and responsive layout techniques.
+I spent 7 years at Discover Financial and 6 at Bread Financial consistently finishing in the top 5% of my team. In March 2026 I enrolled in Coding Temple's Full-Stack Web Development bootcamp and started building. This portfolio is a living record of that journey.
 
----
+## Features
 
-## Tech Stack
+- Responsive design across mobile, tablet, and desktop
+- Semantic HTML structure with accessibility best practices
+- CSS Grid and Flexbox layouts
+- Mobile navigation with JavaScript toggle
+- Animated section entrances
+- Project showcase with tech stack tags
+- Skills, certifications, and career stats
 
-- HTML5
-- CSS3
-- JavaScript
-- Flexbox
-- CSS Grid
-- Font Awesome (icons)
-- Google Fonts (Inter)
+## Site Built With
 
----
+HTML5 · CSS3 · JavaScript · Flexbox · CSS Grid · Font Awesome · Google Fonts
 
-## How to Run the Project
+## Full Tech Stack
 
-1. Download or clone the repository:
+**Languages:** HTML5 · CSS3 · JavaScript (ES6+) · Python
 
-   ```bash
-   git clone https://github.com/KeysStarks/YOUR-REPO-NAME.git
-   ```
+**Frameworks & Libraries:** React · React Router · Axios · Bootstrap
 
-2. Open the project folder in your code editor
-3. Open `index.html` in your browser
-   or use Live Server in VS Code
+**Developer Tools:** Git · GitHub · VS Code · Vite · npm
 
----
+**Concepts:** REST APIs · Object-Oriented Programming · Responsive Design · Debugging · Version Control
 
-## Features and Enhancements
+## Projects Featured
 
-- Responsive design for mobile, tablet, and desktop
-- Semantic HTML structure using sections, articles, and proper hierarchy
-- Flexbox and CSS Grid used for layout and alignment
-- Mobile navigation menu with JavaScript toggle
-- Interactive elements including hover effects and transitions
-- Accessibility improvements:
-  - Skip-to-content link for keyboard users
-  - Focus states for interactive elements
-  - ARIA attributes for navigation
+- **FakeStore API** — React SPA with REST API, Axios, React Router
+- **Defeat the Evil Wizard** — Python OOP RPG with inheritance and game state
+- **Python CLI Task Manager** — Persistent task app with file storage and OOP
+- **EventHive** — Multi-page event site (HTML/CSS)
+- **FoodSpot** — Food landing page (HTML/CSS)
 
-- Organized file structure with images stored in a dedicated folder
-- Clean and modern UI inspired by professional portfolio layouts
+## Certifications (Coding Temple via Accredible)
 
----
+- Web Development with HTML & CSS
+- JavaScript Mastery
+- Python Foundations for Software Engineering
+- Advanced Python
+- Single Page Apps with React
 
-## Notes
+## Contact
 
-This project was completed as part of the Coding Temple bootcamp curriculum. It demonstrates foundational front-end development skills, including responsive design, accessibility practices, and modern CSS layout techniques.
+- Email: keishawnstarks@outlook.com
+- GitHub: [KeysStarks](https://github.com/KeysStarks)
+- LinkedIn: [keishawn-starks](https://www.linkedin.com/in/keishawn-starks-b35ab0212/)
