@@ -1,8 +1,11 @@
 # Keishawn Starks — Personal Portfolio
 
 Live portfolio site built with HTML5, CSS3, and JavaScript. Showcases my growth from a 13-year financial services career into full-stack development.
+**Live Site:** [keysstarks.github.io/PersonalPortfolio](https://keysstarks.github.io/PersonalPortfolio)
 
-## About
+## Preview
+
+![Portfolio Preview](assets/preview.png)
 
 I spent 7 years at Discover Financial and 6 at Bread Financial consistently finishing in the top 5% of my team. In March 2026 I enrolled in Coding Temple's Full-Stack Web Development bootcamp and started building. This portfolio is a living record of that journey.
 
