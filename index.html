@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Keishawn Starks | Full-Stack Developer</title>
+    <title>Personal | Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,31 +14,6 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <!-- SEO Meta Tags -->
-    <meta
-      name="description"
-      content="Keishawn Starks — Customer Success Engineer | Full-Stack Developer in Training. 13 years as a top 5% performer in financial services, now building React and Python applications at Coding Temple. Targeting IT Support, Technical Support, and Software Development roles in Richmond/Chesterfield, VA."
-    />
-    <meta
-      name="keywords"
-      content="Keishawn Starks, full-stack developer, React developer, Python developer, bootcamp, Coding Temple, Richmond VA, IT support, software development, career change"
-    />
-    <meta name="author" content="Keishawn Starks" />
-
-    <!-- Open Graph (LinkedIn, social previews) -->
-    <meta
-      property="og:title"
-      content="Keishawn Starks | Full-Stack Developer"
-    />
-    <meta
-      property="og:description"
-      content="From top 5% financial services performer to full-stack developer in 3 months. Building React SPAs and Python apps. Relocating to Richmond/Chesterfield, VA — August 2026."
-    />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content="https://keysstarks.github.io/PersonalPortfolio"
     />
   </head>
 
@@ -83,6 +58,14 @@
           aria-label="Visit my GitHub profile"
           >GitHub</a
         >
+
+        <a
+          href="https://www.instagram.com/superstarks_keys/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Visit my Instagram profile"
+          >Instagram</a
+        >
       </div>
     </header>
 
@@ -91,21 +74,16 @@
         <div class="container hero-content">
           <div class="hero-text">
             <p class="hero-tagline">
-              Full-Stack Developer in Training &nbsp;·&nbsp; Top 5% Performer
-              Making the Jump to Tech
+              Build the web. Build the body. Build the future.
             </p>
             <h1>Keishawn Starks</h1>
             <p>
-              From 13 years as a top performer in financial services to building
-              React SPAs and Python applications. I bring the same competitive
-              drive that earned me $12K in annual bonuses to every line of code
-              I write.
+              Full-Stack Developer building modern web applications end-to-end —
+              React frontends, Flask REST APIs, and SQL-backed databases,
+              deployed to production.
             </p>
 
-            <div class="hero-cta">
-              <a href="#projects" class="btn">View My Work</a>
-              <a href="#about" class="btn btn-outline">My Story</a>
-            </div>
+            <a href="#projects" class="btn">View My Work</a>
           </div>
 
           <div class="hero-image">
@@ -116,14 +94,14 @@
         <div class="tools container">
           <p>Tech Stack</p>
           <div class="tool-list">
-            <span>HTML5</span>
-            <span>CSS3</span>
+            <span>HTML</span>
+            <span>CSS</span>
             <span>JavaScript</span>
             <span>React</span>
             <span>Python</span>
-            <span>Git</span>
-            <span>REST APIs</span>
-            <span>Bootstrap</span>
+            <span>Flask</span>
+            <span>SQLAlchemy</span>
+            <span>SQLite</span>
           </div>
         </div>
       </section>
@@ -134,101 +112,91 @@
             <p class="section-label">Portfolio</p>
             <h2>Featured Projects</h2>
             <p class="section-description">
-              3 months in. Real projects, real code. From React single-page apps
-              to Python OOP — here's what I've built so far.
+              Projects spanning full-stack development — REST APIs, database
+              design, React frontends, and deployed production applications.
             </p>
           </div>
 
           <div class="projects-grid">
+            <!-- Collections Dashboard — Full-Stack Power Project -->
             <article class="project-card">
-              <div class="project-banner banner-react">
-                <span
-                  ><i class="fa-brands fa-react"></i> React · Axios · REST
-                  API</span
+              <div class="project-image">
+                <!-- Replace with: <img src="images/CollectionsDashboard.png" alt="Collections Dashboard" /> -->
+                <div
+                  style="
+                    background: linear-gradient(
+                      135deg,
+                      #0f1117 0%,
+                      #1a1d27 50%,
+                      #22263a 100%
+                    );
+                    height: 210px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 8px;
+                    border-bottom: 1px solid #2e3350;
+                  "
                 >
+                  <span
+                    style="
+                      color: #4f7cff;
+                      font-size: 1.35rem;
+                      font-weight: 800;
+                      letter-spacing: -0.02em;
+                    "
+                    >Collections Dashboard</span
+                  >
+                  <span
+                    style="
+                      color: #7880a0;
+                      font-size: 0.8rem;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                      letter-spacing: 0.08em;
+                    "
+                    >Full-Stack · Live</span
+                  >
+                </div>
               </div>
+
               <div class="project-content">
-                <h3>FakeStore API</h3>
+                <h3>Collections Dashboard</h3>
                 <p>
-                  A responsive e-commerce SPA consuming a live REST API with
-                  dynamic product rendering, client-side routing, CRUD
-                  operations, and loading/error state management.
+                  Full-stack account receivables management app. Flask REST API
+                  with SQLAlchemy + SQLite backend, React + Vite frontend.
+                  Features live stats, status filters, and full CRUD — deployed
+                  on Render and Netlify.
                 </p>
+
                 <div class="project-tech">
+                  <span>Flask</span>
+                  <span>SQLAlchemy</span>
                   <span>React</span>
-                  <span>Axios</span>
-                  <span>React Router</span>
-                  <span>Bootstrap</span>
-                </div>
-                <a
-                  href="https://github.com/KeysStarks"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="project-link"
-                >
-                  View on GitHub
-                </a>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-banner banner-python">
-                <span
-                  ><i class="fa-brands fa-python"></i> Python · OOP · Game
-                  Dev</span
-                >
-              </div>
-              <div class="project-content">
-                <h3>Defeat the Evil Wizard</h3>
-                <p>
-                  A text-based RPG built with advanced Python OOP — multiple
-                  character classes, inheritance, combat logic, and full game
-                  state management. Demonstrates clean architecture.
-                </p>
-                <div class="project-tech">
+                  <span>Vite</span>
                   <span>Python</span>
-                  <span>OOP</span>
-                  <span>Inheritance</span>
                 </div>
-                <a
-                  href="https://github.com/KeysStarks"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="project-link"
-                >
-                  View on GitHub
-                </a>
-              </div>
-            </article>
 
-            <article class="project-card">
-              <div class="project-banner banner-cli">
-                <span
-                  ><i class="fa-solid fa-terminal"></i> Python · CLI · File
-                  I/O</span
-                >
-              </div>
-              <div class="project-content">
-                <h3>Python CLI Task Manager</h3>
-                <p>
-                  A persistent command-line task management app with file
-                  storage, exception handling, and clean UX. Demonstrates
-                  modular design, OOP principles, and real-world data
-                  persistence.
-                </p>
-                <div class="project-tech">
-                  <span>Python</span>
-                  <span>File I/O</span>
-                  <span>OOP</span>
+                <div style="display: flex; gap: 16px; align-items: center">
+                  <a
+                    href="https://collectionsdashboard.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                  >
+                    Live Demo ↗
+                  </a>
+                  <a
+                    href="https://github.com/KeysStarks/Collections_Dashboard_FSPP"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                    style="color: #7880a0"
+                  >
+                    GitHub
+                  </a>
                 </div>
-                <a
-                  href="https://github.com/KeysStarks"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="project-link"
-                >
-                  View on GitHub
-                </a>
               </div>
             </article>
 
@@ -236,17 +204,20 @@
               <div class="project-image">
                 <img src="images/EventHive.png" alt="EventHive project" />
               </div>
+
               <div class="project-content">
                 <h3>EventHive</h3>
                 <p>
                   A responsive multi-page event website built with semantic
                   HTML, CSS, Flexbox, Grid, and responsive images.
                 </p>
+
                 <div class="project-tech">
                   <span>HTML</span>
                   <span>CSS</span>
                   <span>Responsive Design</span>
                 </div>
+
                 <a
                   href="https://github.com/KeysStarks/EventHiveWebsite.git"
                   target="_blank"
@@ -262,17 +233,20 @@
               <div class="project-image">
                 <img src="images/Foodspot.png" alt="FoodSpot project" />
               </div>
+
               <div class="project-content">
                 <h3>FoodSpot</h3>
                 <p>
                   A modern food landing page focused on layout and responsive
-                  design using Flexbox and modern CSS techniques.
+                  design.
                 </p>
+
                 <div class="project-tech">
                   <span>HTML</span>
                   <span>CSS</span>
                   <span>Flexbox</span>
                 </div>
+
                 <a
                   href="https://github.com/KeysStarks/FoodSpot"
                   target="_blank"
@@ -291,71 +265,45 @@
         <div class="container about-content">
           <div class="about-text">
             <p class="section-label">About Me</p>
-            <h2>From top 5% performer to full-stack developer</h2>
+            <h2>Building discipline through code and consistency</h2>
 
             <p>
-              I spent 7 years at Discover Financial and nearly 6 at Bread
-              Financial doing one thing consistently — finishing 30–50% above
-              performance baseline and earning up to $12,000 in annual bonuses.
-              I wasn't just hitting goals. I was raising them.
+              I'm Keishawn Starks, a full-stack developer who completed the
+              Coding Temple bootcamp and builds real, deployed applications from
+              backend to frontend.
             </p>
 
             <p>
-              In March 2026, I made the decision to go all in on tech. I'm
-              currently completing Coding Temple's Full-Stack Web Development
-              program — building React applications, Python projects, and
-              earning verified certifications every step of the way.
+              I bring strong problem-solving skills, consistency, and discipline
+              into my development journey — with experience across Python,
+              Flask, React, and SQL databases.
             </p>
 
             <p>
-              I bring what most bootcamp grads don't: 13 years of data analysis,
-              process optimization, regulatory compliance, and a track record of
-              outperforming under pressure. I'm relocating to
-              Richmond/Chesterfield, VA in August 2026 and actively seeking IT
-              Support, Technical Support, Application Support, or Software
-              Development roles.
+              Outside of coding, I'm passionate about fitness — which fuels my
+              mindset for growth and consistency.
             </p>
-
-            <div class="cert-list">
-              <p class="cert-title">Coding Temple — Verified Certifications</p>
-              <ul>
-                <li>
-                  <i class="fas fa-check-circle"></i> Web Development with HTML
-                  &amp; CSS
-                </li>
-                <li><i class="fas fa-check-circle"></i> JavaScript Mastery</li>
-                <li>
-                  <i class="fas fa-check-circle"></i> Python Foundations for
-                  Software Engineering
-                </li>
-                <li><i class="fas fa-check-circle"></i> Advanced Python</li>
-                <li>
-                  <i class="fas fa-check-circle"></i> Single Page Apps with
-                  React
-                </li>
-              </ul>
-            </div>
           </div>
 
           <div class="about-highlights">
             <div class="highlight-card">
-              <h3>13 Years</h3>
-              <p>Professional experience in financial services</p>
+              <h3>3–5 hrs/day</h3>
+              <p>Dedicated coding practice</p>
             </div>
 
             <div class="highlight-card">
-              <h3>Top 5%</h3>
-              <p>Performer year over year at Discover &amp; Bread Financial</p>
+              <h3>Full-Stack</h3>
+              <p>Flask · React · SQL</p>
             </div>
 
             <div class="highlight-card">
-              <h3>$12K</h3>
-              <p>Annual performance bonuses earned consistently</p>
+              <h3>Problem Solver</h3>
+              <p>Finance → Tech mindset</p>
             </div>
 
             <div class="highlight-card">
-              <h3>5 Certs</h3>
-              <p>Verified badges earned in 3 months at Coding Temple</p>
+              <h3>Discipline</h3>
+              <p>Fitness-driven consistency</p>
             </div>
           </div>
         </div>
@@ -367,17 +315,14 @@
             <p class="section-label">Contact</p>
             <h2>Let's build something great together</h2>
             <p class="section-description">
-              Open to IT Support, Technical Support, Application Support, and
-              Software Development roles in Richmond/Chesterfield, VA
-              (relocating August 2026). Remote-friendly opportunities also
-              considered.
+              I'd love to connect about opportunities and projects.
             </p>
           </div>
 
           <div class="contact-grid">
-            <a href="mailto:keishawnstarks@outlook.com" class="contact-card">
+            <a href="mailto:keishawnstarks@gmail.com" class="contact-card">
               <h3>Email</h3>
-              <p>keishawnstarks@outlook.com</p>
+              <p>keishawnstarks@gmail.com</p>
             </a>
 
             <div class="contact-socials">
@@ -397,6 +342,15 @@
                 aria-label="Visit my LinkedIn profile"
               >
                 <i class="fab fa-linkedin"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/superstarks_keys/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit my Instagram profile"
+              >
+                <i class="fab fa-instagram"></i>
               </a>
             </div>
           </div>
