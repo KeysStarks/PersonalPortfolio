@@ -656,6 +656,41 @@ nav {
   color: #a78bfa;
 }
 
+/* Flagship project: Mechanic Shop API */
+.banner-flagship {
+  background: linear-gradient(135deg, #241505 0%, #402206 50%, #5c3209 100%);
+  flex-direction: column;
+  gap: 10px;
+}
+
+.banner-flagship span:last-child {
+  color: #fbbf24;
+}
+
+.flagship-badge {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b) !important;
+  color: #1a1206 !important;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 6px 14px !important;
+}
+
+.project-card-flagship {
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  box-shadow:
+    0 12px 32px rgba(251, 191, 36, 0.1),
+    0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+.project-card-flagship:hover {
+  border-color: rgba(251, 191, 36, 0.55);
+  box-shadow:
+    0 20px 42px rgba(251, 191, 36, 0.16),
+    0 20px 40px rgba(0, 0, 0, 0.24);
+}
+
 /* About: certifications list */
 .cert-list {
   margin-top: 28px;
